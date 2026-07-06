@@ -463,6 +463,21 @@
       <span class="section-pill">常見問題 Q&amp;A</span>
       <span class="section-eyebrow">陸　FAQ</span>
     </div>
+
+    <div style="background:linear-gradient(135deg,#fff4d6,#ffe9b3);border:2px solid #e8b93a;border-radius:16px;padding:18px 22px;margin:16px 0 20px;box-shadow:0 3px 14px rgba(232,185,58,0.25)">
+      <div style="display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-bottom:8px">
+        <span style="font-size:20px">📣</span>
+        <span style="font-weight:900;font-size:16.5px;color:#7a4a00">請協助填寫補助效益調查問卷</span>
+        <span style="display:inline-block;font-size:11.5px;color:#fff;background:#d9761c;padding:2px 10px;border-radius:6px;font-weight:800">期限 115/9/30</span>
+      </div>
+      <p style="margin:0 0 10px;color:#5c4a1e;font-size:14.5px;line-height:1.7">為瞭解友善植保資材補助推動效益，並作為後續爭取補助額度及精進政策推動之參考，請協助轉知並輔導符合資格之農業生產者填寫效益調查問卷。</p>
+      <ul style="margin:0 0 14px;padding-left:20px;line-height:1.8;color:#5c4a1e;font-size:14px">
+        <li>調查對象：113年至115年間曾申請友善植保資材補助之農業生產者（含防檢署辦理之免登記植物保護資材、生物農藥及生物天敵商品補助）</li>
+        <li>回填贈禮：前100份有效問卷，致贈便利商店100元商品卡1份</li>
+      </ul>
+      <a href="https://www.surveycake.com/s/8ZDyr" target="_blank" rel="noopener" style="display:inline-block;background:#d9761c;color:#fff;font-weight:800;font-size:14px;padding:10px 22px;border-radius:10px;text-decoration:none">前往填寫問卷 ↗</a>
+    </div>
+
     <p style="color:#6a6a48;font-size:15px;max-width:740px;margin:14px 0 22px">輸入關鍵字搜尋，或點選分類快速篩選。內容整理自鄉鎮輔導單位作業說明會。</p>
 
     <div style="position:relative;margin-bottom:14px">
@@ -537,7 +552,7 @@ const TABS = [
   { id:"contact", label:"聯絡窗口" }
 ];
 
-const CATS = ["全部","資料準備","所得稅","查驗紀錄","系統操作","行政作業費","簽章與證明文件","撥款方式","補助額度","分期送件","問卷調查","聯絡窗口"];
+const CATS = ["全部","資料準備","所得稅","查驗紀錄","系統操作","行政作業費","簽章與證明文件","撥款方式","補助額度","分期送件","聯絡窗口"];
 
 const FAQ_DATA = [
   { id:1, cat:"資料準備", q:"申請補助要提供哪些資料？",
@@ -597,9 +612,7 @@ const FAQ_DATA = [
   { id:28, cat:"聯絡窗口", q:"補助經費或辦法核銷規定有爭議，找誰詢問？",
     a:`<p><b>補助經費／核銷規定爭議：</b>防檢署承辦　鄒小姐　02-2243-1480</p><p><b>分工提醒：</b>系統操作 → 系統廠商（首頁電話）；受理、檢核、送件實務 → 執行單位（運籌學會）；補助辦法與核銷爭議 → 防檢署承辦鄒小姐。</p>` },
   { id:29, cat:"聯絡窗口", q:"送件與洽詢窗口有哪些？",
-    a:`<p><b>送件地址：</b>104 台北市中山北路三段 28 號 3 樓（社團法人台灣農業科技資源運籌管理學會），請註明「植保資材補助」</p><p><b>LINE 帳號：</b>@167rocbe（<a href="https://lin.ee/uRLaUvQ" target="_blank" rel="noopener" style="color:#5f7a2a">點此加入好友</a>）</p><p><b>說明會簡報下載：</b><a href="https://reurl.cc/A9E838" target="_blank" rel="noopener" style="color:#5f7a2a">https://reurl.cc/A9E838</a></p><ul style="margin:8px 0;padding-left:20px;line-height:1.8"><li>資材補助一般洽詢／受理・送件實務：鄧翠怡 助理研究員　02-2585-1775 #32</li><li>資材補助一般洽詢／受理・送件實務：黃靖嵐 研究員　02-2585-1775 #37</li><li>補助辦法／核銷爭議：防檢署 鄒小姐　02-2243-1480</li></ul>` },
-  { id:30, cat:"問卷調查", q:"請協助填寫補助效益調查問卷", highlight:true,
-    a:`<p>為瞭解友善植保資材補助推動效益，並作為後續爭取補助額度及精進政策推動之參考，請協助轉知並輔導符合資格之農業生產者填寫效益調查問卷。</p><ul style="margin:8px 0;padding-left:20px;line-height:1.8"><li>問卷連結：<a href="https://www.surveycake.com/s/8ZDyr" target="_blank" rel="noopener" style="color:#5f7a2a">https://www.surveycake.com/s/8ZDyr</a></li><li>調查對象：113年至115年間曾申請友善植保資材補助之農業生產者（含防檢署辦理之免登記植物保護資材、生物農藥及生物天敵商品補助）</li><li>調查期限：即日起至115年9月30日止</li><li>回填贈禮：前100份有效問卷，致贈便利商店100元商品卡1份</li></ul>` }
+    a:`<p><b>送件地址：</b>104 台北市中山北路三段 28 號 3 樓（社團法人台灣農業科技資源運籌管理學會），請註明「植保資材補助」</p><p><b>LINE 帳號：</b>@167rocbe（<a href="https://lin.ee/uRLaUvQ" target="_blank" rel="noopener" style="color:#5f7a2a">點此加入好友</a>）</p><p><b>說明會簡報下載：</b><a href="https://reurl.cc/A9E838" target="_blank" rel="noopener" style="color:#5f7a2a">https://reurl.cc/A9E838</a></p><ul style="margin:8px 0;padding-left:20px;line-height:1.8"><li>資材補助一般洽詢／受理・送件實務：鄧翠怡 助理研究員　02-2585-1775 #32</li><li>資材補助一般洽詢／受理・送件實務：黃靖嵐 研究員　02-2585-1775 #37</li><li>補助辦法／核銷爭議：防檢署 鄒小姐　02-2243-1480</li></ul>` }
 ];
 
 const state = { activeTab:"intro", activeCat:"全部", searchTerm:"" };
@@ -676,23 +689,15 @@ function renderFaqList(){
     return;
   }
 
-  filtered.sort((a,b)=> (b.highlight?1:0) - (a.highlight?1:0));
-
   const openAttr = term ? 'open' : '';
   faqList.innerHTML = filtered.map(item=>{
     const qHtml = highlight(item.q, term);
     const aHtml = highlight(item.a, term);
-    const hi = !!item.highlight;
-    const cardStyle = hi
-      ? "background:#fff8e6;border:2px solid #e8b93a;border-radius:16px;overflow:hidden;box-shadow:0 3px 14px rgba(232,185,58,0.3)"
-      : "background:#fffdf6;border:2px solid #e6dcb2;border-radius:16px;overflow:hidden";
-    const badgeCircle = hi ? "background:#e8b93a;color:#fff" : "background:#dce9a8;color:#4a5a2a";
-    const hiTag = hi ? `<span style="display:inline-block;font-size:11.5px;color:#fff;background:#d9761c;padding:2px 8px;border-radius:6px;margin-left:8px;font-weight:800">📣 限時填答</span>` : '';
     return `
-      <details ${openAttr} style="${cardStyle}">
+      <details ${openAttr} style="background:#fffdf6;border:2px solid #e6dcb2;border-radius:16px;overflow:hidden">
         <summary style="cursor:pointer;padding:16px 20px;display:flex;gap:12px;align-items:flex-start;font-weight:700;font-size:15.5px;color:#3a4720">
-          <span style="flex:none;width:28px;height:28px;border-radius:50%;${badgeCircle};display:flex;align-items:center;justify-content:center;font-size:12.5px;font-weight:800">Q${item.id}</span>
-          <span style="flex:1">${qHtml}<span style="display:inline-block;font-size:11.5px;color:#5f7a2a;background:#eef4d6;padding:2px 8px;border-radius:6px;margin-left:8px">${item.cat}</span>${hiTag}</span>
+          <span style="flex:none;width:28px;height:28px;border-radius:50%;background:#dce9a8;color:#4a5a2a;display:flex;align-items:center;justify-content:center;font-size:12.5px;font-weight:800">Q${item.id}</span>
+          <span style="flex:1">${qHtml}<span style="display:inline-block;font-size:11.5px;color:#5f7a2a;background:#eef4d6;padding:2px 8px;border-radius:6px;margin-left:8px">${item.cat}</span></span>
         </summary>
         <div style="padding:0 20px 18px 60px;font-size:14.5px;color:#4a4a34;line-height:1.75">${aHtml}</div>
       </details>
