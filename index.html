@@ -549,50 +549,56 @@ const FAQ_DATA = [
   { id:4, cat:"資料準備", q:"輔導單位需要提供預算編列、配合款等資料嗎？",
     a:`<p><b>不需要。</b>不同於以往對縣市政府的要求，本次只需提供申請資料與收據即可。</p><ul style="margin:8px 0;padding-left:20px;line-height:1.8"><li><b>申請資料</b>：農民申請表與系統登打資料</li><li><b>收據</b>：向運籌學會請款之領據（運籌學會提供收據範本）</li></ul><p style="margin-top:8px">行政作業費請款比照辦理：無須另附預算編列或配合款資料，檢附領據即可。</p>` },
   { id:5, cat:"資料準備", q:"需要檢附土地證明嗎？",
-    a:`<p><b>依系統登錄狀況判斷：</b></p><ul style="margin:8px 0;padding-left:20px;line-height:1.8"><li><b>往年已登錄、且未異動</b>：可免附。系統已有登錄資料、且無調整者，可不需重附土地證明；前一年作業系統登錄有案且資料未變動者，可由系統轉入，免重新填列申請表</li><li><b>新增農民、或土地異動</b>：須檢附。可提供土地所有權狀、土地登記謄本、土地租約、耕作同意書、天然災害救助清冊、符合實際耕作者認定之證明文件，或其他可證明耕作面積之資料</li></ul><p style="margin-top:8px"><b>同一農地不得重複申請補助。</b></p>` },
-  { id:6, cat:"查驗紀錄", q:"查驗2萬元門檻，是採購金額還是補助金額？",
+    a:`<p><b>依系統登錄狀況判斷：</b></p><ul style="margin:8px 0;padding-left:20px;line-height:1.8"><li><b>往年已登錄、且未異動</b>：可免附。系統已有登錄資料、且無調整者，可不需重附土地證明；前一年作業系統登錄有案且資料未變動者，可由系統轉入，免重新填列申請表</li><li><b>新增農民、或土地異動</b>：須檢附。可提供土地所有權狀、土地登記謄本、土地租約、耕作同意書、天然災害救助清冊、符合實際耕作者認定之證明文件，或其他可證明耕作面積之資料</li></ul>` },
+  { id:6, cat:"資料準備", q:"同一農地可以重複申請補助嗎？",
+    a:`<p>不可以。同一農地不得重複申請補助。</p>` },
+  { id:7, cat:"查驗紀錄", q:"2萬元查驗門檻，金額怎麼認定？",
     a:`<p><b>門檻認定的是「購買資材憑證金額」，不是補助金額。</b></p><ul style="margin:8px 0;padding-left:20px;line-height:1.8"><li>憑證金額剛好 20,000 元，也算「達2萬元」，須拍照查驗</li><li>115年6月15日前已購買（憑證日期在該日之前）者，原則上不屬於本次附表三必附範圍</li></ul>` },
-  { id:7, cat:"查驗紀錄", q:"2萬元門檻是「生物農藥＋免登資材」合計嗎？",
+  { id:8, cat:"查驗紀錄", q:"2萬元門檻是「生物農藥＋免登資材」合計嗎？",
     a:`<p>不是。<b>生物農藥與免登資材分開採計</b>，其中一項達 20,000 元才需拍照查驗。</p><div style="background:#eef4d6;border-radius:10px;padding:10px 14px;margin-top:8px;font-size:13.5px;color:#3a4720">例：生物農藥 12,000 元 ＋ 免登資材 9,000 元 → 兩項均未達 2 萬元，此次不需拍照查驗</div><p style="margin-top:8px">若同一案件或同一張憑證同時涉及生物農藥與免登資材，且金額認定有疑義，請洽運籌學會協助確認。</p>` },
-  { id:8, cat:"查驗紀錄", q:"附表三查驗紀錄表可以用電子檔列印嗎？",
+  { id:9, cat:"查驗紀錄", q:"附表三查驗紀錄表可以用電子檔列印嗎？",
     a:`<p>可以用電子檔列印。附表三查驗表不需另行洗出相片紙本，電子檔列印即可。</p><p><b>分次購買的查驗門檻：</b>同一類別資材（生物農藥或免登資材）分次購買、總計達2萬元時，「累計達2萬元的那一次起」需拍照查驗。用意在避免同一補助對象以分批購買方式，規避查驗門檻。</p><div style="background:#eef4d6;border-radius:10px;padding:10px 14px;margin-top:8px;font-size:13.5px;color:#3a4720">例：同一類別資材分三次購買 8,000 元 ＋ 7,000 元 ＋ 6,000 元（累計 21,000 元）→ 此次需拍照查驗</div>` },
-  { id:9, cat:"查驗紀錄", q:"查驗相片要怎麼拍？有什麼要求？",
+  { id:10, cat:"查驗紀錄", q:"查驗相片要怎麼拍？有什麼要求？",
     a:`<p>相片主要用作「實際購買事實」的證明。請清楚拍攝到購買憑證及防治資材即可。</p><ul style="margin:8px 0;padding-left:20px;line-height:1.8"><li><b>拍到購買憑證</b>：發票或販售證明須清楚可辨，資材名稱、金額完整露出</li><li><b>拍到防治資材</b>：實際購買的資材產品入鏡，可辨識品牌與品項</li><li><b>同框拍攝</b>：115年7月4日起，金額達2萬元之案件，請將購買憑證與資材同框拍攝；資材數量較多、無法同框者，可分數張照片拍攝，重點是憑證與資材能相互對應。115年1月1日至7月3日期間之案件，發票照片與產品照片可分開提供</li><li><b>整箱拍攝</b>：可以整箱拍照，但須能清楚辨識資材品項；如無法辨識，建議加拍近照或代表性包裝</li><li><b>產銷班聯合採購</b>：建議拍攝整批資材與購買憑證，另附各產銷班或班員之分配清冊，列明品項與數量</li><li><b>資材已用完、包裝已丟棄</b>：如因實務原因無法補拍，請先提供既有查驗照片、購買憑證及相關佐證資料，並洽運籌學會協助釐清</li><li><b>掃描列印</b>：查驗相片可掃描後列印，重點是影像須清楚可辨識</li><li><b>黏貼於附表三</b>：相片黏貼於附表三查驗相片處，可用電子檔列印</li></ul>` },
-  { id:10, cat:"系統操作", q:"系統操作或資料異常，找誰處理？",
+  { id:11, cat:"系統操作", q:"系統操作或資料異常，找誰處理？",
     a:`<p><b>系統問題請洽系統廠商。</b>系統登入相關問題，請洽系統廠商，廠商聯絡電話顯示於系統首頁登入畫面。</p><p>登入網址：<a href="https://ecoppp.aphia.gov.tw" target="_blank" rel="noopener" style="color:#5f7a2a">https://ecoppp.aphia.gov.tw</a></p><p><b>廠商客服資訊：</b></p><ul style="margin:8px 0;padding-left:20px;line-height:1.8"><li>客服信箱：<a href="mailto:afaservice@smartagri.com.tw" style="color:#5f7a2a">afaservice@smartagri.com.tw</a></li><li>客服電話：(02)2305-0038</li></ul><p><b>其他常見狀況：</b></p><ul style="margin:8px 0;padding-left:20px;line-height:1.8"><li>系統無法登打地段號：請先洽系統廠商處理；如仍無法排除，可同步通知運籌學會協助彙整問題</li><li>系統無法與糧政系統申報檔同步：資料介接涉及系統權限、欄位與主管機關系統規劃，非本次補助檢核單位可直接調整，將彙整建議後由主管機關與系統廠商評估</li></ul>` },
-  { id:11, cat:"系統操作", q:"合作社如何知道本身有多少免登資材及生物農藥額度？",
+  { id:12, cat:"系統操作", q:"合作社如何知道本身有多少免登資材及生物農藥額度？",
     a:`<p>請洽所在地縣市政府或運籌學會協助確認。</p>` },
-  { id:12, cat:"行政作業費", q:"鄉鎮輔導單位的行政作業費怎麼計算及核銷？",
+  { id:13, cat:"行政作業費", q:"鄉鎮輔導單位的行政作業費怎麼計算及核銷？",
     a:`<p><b>行政作業費 ＝ 補助金額 × 3%</b></p><div style="background:#eef4d6;border-radius:10px;padding:10px 14px;margin-top:8px;font-size:13.5px;color:#3a4720">計算範例：若該單位核撥補助款 100,000 元，行政作業費 ＝ 100,000 × 3% ＝ 3,000 元</div><p style="margin-top:12px"><b>計算基礎：</b>生物農藥與免登記植物保護資材補助金額合計後計算。</p><p><b>核銷資料：</b>請檢附請款收據辦理即可，無須另行簽訂合作合約書；原線上說明會提及需簽約部分，已修正為無須簽約。</p><p>領據／收據格式可參考運籌學會提供之範本；如貴單位已有制式文件，請先洽運籌學會確認是否適用。相關經費支用及內部核銷，請依各單位會計規定辦理。</p>` },
-  { id:13, cat:"行政作業費", q:"行政作業費是撥給農會，還是撥給承辦人員？",
+  { id:14, cat:"行政作業費", q:"行政作業費是撥給農會，還是撥給承辦人員？",
     a:`<p>行政作業費原則上撥付予鄉鎮輔導單位，用於支應受理申請、系統登打、資料彙整、送件及相關行政作業。</p><p>若輔導單位擬將行政作業費核給承辦人員，請依內部規定辦理，並以公文通知運籌學會。</p>` },
-  { id:14, cat:"補助額度", q:"經費分配表中的金額，是否包含行政作業費？",
+  { id:15, cat:"補助額度", q:"經費分配表中的金額，是否包含行政作業費？",
     a:`<p>是，包含。行政作業費依實際執行補助金額 3% 計算。</p><div style="background:#eef4d6;border-radius:10px;padding:10px 14px;margin-top:8px;font-size:13.5px;color:#3a4720">例：實際執行補助金額 100,000 元，行政作業費為 3,000 元</div>` },
-  { id:15, cat:"補助額度", q:"申請額度已滿，後續會不會追加補助經費？",
+  { id:16, cat:"補助額度", q:"申請額度已滿，後續會不會追加補助經費？",
     a:`<p>本補助作業年度預算經費有限，申請至115年11月30日止，或至經費用罄止。</p><p>是否因申請狀況調整額度，須依防檢署後續規劃及經費運用情形辦理，建議各單位先依核定額度內受理申請。</p>` },
-  { id:16, cat:"撥款方式", q:"需要附農友的存摺帳戶資料嗎？",
-    a:`<p><b>不需要。</b>運籌學會不會直接撥款給農友，因此不需附農友存摺資料。</p><p><b>撥款流程：</b>防檢署 → 運籌學會（執行單位）→ 鄉鎮輔導單位 → 補助對象或其所屬產銷班帳戶。</p><ul style="margin:8px 0;padding-left:20px;line-height:1.8"><li>運籌學會不會直接撥款給農友</li><li>鄉鎮輔導單位應以匯款方式轉撥補助款至補助對象或其所屬產銷班帳戶，不得給付現金</li><li>轉帳（匯款）憑證應留存十年備查</li></ul>` },
-  { id:17, cat:"簽章與證明文件", q:"需要請農友在附表二「備註」欄簽名嗎？",
+  { id:17, cat:"撥款方式", q:"需要附農友的存摺帳戶資料嗎？",
+    a:`<p><b>不需要。</b>運籌學會不會直接撥款給農友，因此不需附農友存摺資料。</p>` },
+  { id:18, cat:"撥款方式", q:"補助款是由防檢署或運籌學會直接撥款給農民嗎？",
+    a:`<p>不是。撥款流程為：防檢署 → 運籌學會（執行單位）→ 鄉鎮輔導單位 → 補助對象或其所屬產銷班帳戶。</p><ul style="margin:8px 0;padding-left:20px;line-height:1.8"><li>運籌學會不會直接撥款給農友</li><li>鄉鎮輔導單位應以匯款方式轉撥補助款至補助對象或其所屬產銷班帳戶，不得給付現金</li><li>轉帳（匯款）憑證應留存十年備查</li></ul>` },
+  { id:19, cat:"簽章與證明文件", q:"需要請農友在附表二「備註」欄簽名嗎？",
     a:`<p><b>建議請農友簽名、蓋章。</b>以往部份縣市政府會請農友於附表二備註欄簽名，佐證其知悉申請此項補助。</p><ul style="margin:8px 0;padding-left:20px;line-height:1.8"><li>用意在避免後續產生爭議，留存農友知悉並同意申請的紀錄</li><li>轉帳（匯款）至補助對象帳戶時，領款清冊得免簽章；惟簽名蓋章可作為知悉佐證</li><li>給付現金或撥所屬產銷班帳戶者，應於領款清冊備註欄簽章確認</li></ul><p style="margin-top:8px"><b>個資保護提醒：</b>附表二含農民個資，如需農友簽名，請避免讓農友看到其他農民資料，可採單筆確認、遮蔽他人資料、個別簽收或另製簽收欄位等方式處理。</p>` },
-  { id:18, cat:"簽章與證明文件", q:"發票、販售證明的黏貼有什麼注意事項？",
-    a:`<p><b>應避免：</b></p><ul style="margin:8px 0;padding-left:20px;line-height:1.8"><li>使用「浮貼」方式黏貼憑證</li><li>資材名稱、金額被遮蓋或無法完整顯示</li><li>造成掃描建檔困難或資料不清</li></ul><p><b>正確作法：</b></p><ul style="margin:8px 0;padding-left:20px;line-height:1.8"><li>憑證完整露出，資材名稱與金額清楚可見</li><li>平整黏貼，方便掃描建檔</li><li>發票（免登資材）須註記產品登錄字號；生物農藥另附電子列印之販售證明</li><li>如貴單位已有固定黏貼格式，可逕依原格式辦理；如無固定格式，可參考運籌學會提供之範本</li></ul><p><b>生物農藥販售證明：</b>應以電子列印為限，不接受手寫或手改；重點在由銷售系統開立，並載明購買者、農藥名稱、劑型、含量、購買數量、防治對象等資訊。是否另需蓋公司章，建議依各業者販售證明格式辦理，原則上以系統資料為主要檢核依據。</p><p><b>補充：</b>申請補助的金額低於發票金額時，可直接於系統上變更發票金額（補助金額為系統自動帶入），或手改標註於領用清冊。</p>` },
-  { id:19, cat:"簽章與證明文件", q:"發票品名與系統商品名稱不一致，但登錄字號相同，會影響核銷嗎？",
+  { id:20, cat:"簽章與證明文件", q:"發票、販售證明的黏貼有什麼注意事項？",
+    a:`<p><b>應避免：</b></p><ul style="margin:8px 0;padding-left:20px;line-height:1.8"><li>使用「浮貼」方式黏貼憑證</li><li>資材名稱、金額被遮蓋或無法完整顯示</li><li>造成掃描建檔困難或資料不清</li></ul><p><b>正確作法：</b></p><ul style="margin:8px 0;padding-left:20px;line-height:1.8"><li>憑證完整露出，資材名稱與金額清楚可見</li><li>平整黏貼，方便掃描建檔</li><li>發票（免登資材）須註記產品登錄字號；生物農藥另附電子列印之販售證明</li><li>如貴單位已有固定黏貼格式，可逕依原格式辦理（如規定採浮貼，則可依單位內部作業）；如無固定格式，可參考運籌學會提供之範本</li></ul><p><b>補充：</b>申請補助的金額低於發票金額時，可直接於系統上變更發票金額（補助金額為系統自動帶入），或手改標註於領用清冊。</p>` },
+  { id:21, cat:"簽章與證明文件", q:"生物農藥的販售證明有什麼要求？",
+    a:`<p>生物農藥案件應檢附購買憑證，並附農藥販賣業者透過銷售系統開立之農藥販售證明。</p><ul style="margin:8px 0;padding-left:20px;line-height:1.8"><li><b>電子列印為限</b>：不接受手寫或手改</li><li><b>應載明資訊</b>：購買者、農藥名稱、劑型、含量、購買數量、防治對象等</li><li><b>是否需蓋公司章</b>：建議依各業者販售證明格式辦理，原則上以系統資料為主要檢核依據</li></ul>` },
+  { id:22, cat:"簽章與證明文件", q:"發票品名與系統商品名稱不一致，但登錄字號相同，會影響核銷嗎？",
     a:`<p>若發現系統商品名稱與發票品名不一致或有誤植，請保留相關資料，並通知系統廠商或運籌學會協助釐清，以利後續檢核。</p>` },
-  { id:20, cat:"所得稅", q:"補助會被扣所得稅嗎？（例如天敵昆蟲補助被列為收入）",
+  { id:23, cat:"所得稅", q:"補助會被扣所得稅嗎？（例如天敵昆蟲補助被列為收入）",
     a:`<p><b>原則：</b>生物天敵補助與友善資材補助原則上均屬「其他所得」，應依所得稅相關規定辦理；如需免除，須有政府專案並經國稅局認定。</p><ul style="margin:8px 0;padding-left:20px;line-height:1.8"><li><b>生物天敵補助</b>：運籌學會協助申報。因計畫給付及資料掌握方式，由運籌學會協助辦理所得申報</li><li><b>友善資材補助</b>：由實際撥付單位處理。計畫設計為運籌學會撥付鄉鎮輔導單位後再轉撥農民，農民端所得申報不由運籌學會辦理</li></ul><p style="margin-top:8px">其他所得是否應列單申報、是否有免列單門檻，應依所得稅法、國稅局及各單位會計作業規定辦理。如有疑義，建議洽所在地國稅局，或由主管機關統一函詢確認。</p>` },
-  { id:21, cat:"分期送件", q:"額度提前用完，可以提前送件核銷嗎？",
+  { id:24, cat:"分期送件", q:"額度提前用完，可以提前送件核銷嗎？",
     a:`<p>可以。請依實際受理情形提前彙整送件，不必等到截止日後才送。送件時請依憑證日期所屬期別整理資料，並注意資料完整性。</p>` },
-  { id:22, cat:"分期送件", q:"同一農民不同月份購買，是否要依憑證日期分期送件？",
+  { id:25, cat:"分期送件", q:"同一農民不同月份購買，是否要依憑證日期分期送件？",
     a:`<p>原則上應依購買憑證日期所屬期別整理送件。若同一農民有不同期別的憑證，請依期別分開送件。</p>` },
-  { id:23, cat:"分期送件", q:"第1期、第2期、第3期資料可以合併送件嗎？",
+  { id:26, cat:"分期送件", q:"第1期、第2期、第3期資料可以合併送件嗎？",
     a:`<p>分期作業是為了解各區申請情形，以規劃是否調配額度，建議依期別分期送件。如有特殊情形，請先洽運籌學會確認。</p>` },
-  { id:24, cat:"分期送件", q:"若逾期送件，額度會保留嗎？",
+  { id:27, cat:"分期送件", q:"若逾期送件，額度會保留嗎？",
     a:`<p>逾期未送件者，原則不保留該期額度。剩餘款項得由防檢署納入後續期別，或依實際需求重新調整運用。</p>` },
-  { id:25, cat:"聯絡窗口", q:"補助經費或辦法核銷規定有爭議，找誰詢問？",
+  { id:28, cat:"聯絡窗口", q:"補助經費或辦法核銷規定有爭議，找誰詢問？",
     a:`<p><b>補助經費／核銷規定爭議：</b>防檢署承辦　鄒小姐　02-2243-1480</p><p><b>分工提醒：</b>系統操作 → 系統廠商（首頁電話）；受理、檢核、送件實務 → 執行單位（運籌學會）；補助辦法與核銷爭議 → 防檢署承辦鄒小姐。</p>` },
-  { id:26, cat:"聯絡窗口", q:"送件與洽詢窗口有哪些？",
+  { id:29, cat:"聯絡窗口", q:"送件與洽詢窗口有哪些？",
     a:`<p><b>送件地址：</b>104 台北市中山北路三段 28 號 3 樓（社團法人台灣農業科技資源運籌管理學會），請註明「植保資材補助」</p><p><b>LINE 帳號：</b>@167rocbe（<a href="https://lin.ee/uRLaUvQ" target="_blank" rel="noopener" style="color:#5f7a2a">點此加入好友</a>）</p><p><b>說明會簡報下載：</b><a href="https://reurl.cc/A9E838" target="_blank" rel="noopener" style="color:#5f7a2a">https://reurl.cc/A9E838</a></p><ul style="margin:8px 0;padding-left:20px;line-height:1.8"><li>資材補助一般洽詢／受理・送件實務：鄧翠怡 助理研究員　02-2585-1775 #32</li><li>資材補助一般洽詢／受理・送件實務：黃靖嵐 研究員　02-2585-1775 #37</li><li>補助辦法／核銷爭議：防檢署 鄒小姐　02-2243-1480</li></ul>` },
-  { id:27, cat:"問卷調查", q:"請協助填寫補助效益調查問卷",
+  { id:30, cat:"問卷調查", q:"請協助填寫補助效益調查問卷", highlight:true,
     a:`<p>為瞭解友善植保資材補助推動效益，並作為後續爭取補助額度及精進政策推動之參考，請協助轉知並輔導符合資格之農業生產者填寫效益調查問卷。</p><ul style="margin:8px 0;padding-left:20px;line-height:1.8"><li>問卷連結：<a href="https://www.surveycake.com/s/8ZDyr" target="_blank" rel="noopener" style="color:#5f7a2a">https://www.surveycake.com/s/8ZDyr</a></li><li>調查對象：113年至115年間曾申請友善植保資材補助之農業生產者（含防檢署辦理之免登記植物保護資材、生物農藥及生物天敵商品補助）</li><li>調查期限：即日起至115年9月30日止</li><li>回填贈禮：前100份有效問卷，致贈便利商店100元商品卡1份</li></ul>` }
 ];
 
@@ -670,15 +676,23 @@ function renderFaqList(){
     return;
   }
 
+  filtered.sort((a,b)=> (b.highlight?1:0) - (a.highlight?1:0));
+
   const openAttr = term ? 'open' : '';
   faqList.innerHTML = filtered.map(item=>{
     const qHtml = highlight(item.q, term);
     const aHtml = highlight(item.a, term);
+    const hi = !!item.highlight;
+    const cardStyle = hi
+      ? "background:#fff8e6;border:2px solid #e8b93a;border-radius:16px;overflow:hidden;box-shadow:0 3px 14px rgba(232,185,58,0.3)"
+      : "background:#fffdf6;border:2px solid #e6dcb2;border-radius:16px;overflow:hidden";
+    const badgeCircle = hi ? "background:#e8b93a;color:#fff" : "background:#dce9a8;color:#4a5a2a";
+    const hiTag = hi ? `<span style="display:inline-block;font-size:11.5px;color:#fff;background:#d9761c;padding:2px 8px;border-radius:6px;margin-left:8px;font-weight:800">📣 限時填答</span>` : '';
     return `
-      <details ${openAttr} style="background:#fffdf6;border:2px solid #e6dcb2;border-radius:16px;overflow:hidden">
+      <details ${openAttr} style="${cardStyle}">
         <summary style="cursor:pointer;padding:16px 20px;display:flex;gap:12px;align-items:flex-start;font-weight:700;font-size:15.5px;color:#3a4720">
-          <span style="flex:none;width:28px;height:28px;border-radius:50%;background:#dce9a8;color:#4a5a2a;display:flex;align-items:center;justify-content:center;font-size:12.5px;font-weight:800">Q${item.id}</span>
-          <span style="flex:1">${qHtml}<span style="display:inline-block;font-size:11.5px;color:#5f7a2a;background:#eef4d6;padding:2px 8px;border-radius:6px;margin-left:8px">${item.cat}</span></span>
+          <span style="flex:none;width:28px;height:28px;border-radius:50%;${badgeCircle};display:flex;align-items:center;justify-content:center;font-size:12.5px;font-weight:800">Q${item.id}</span>
+          <span style="flex:1">${qHtml}<span style="display:inline-block;font-size:11.5px;color:#5f7a2a;background:#eef4d6;padding:2px 8px;border-radius:6px;margin-left:8px">${item.cat}</span>${hiTag}</span>
         </summary>
         <div style="padding:0 20px 18px 60px;font-size:14.5px;color:#4a4a34;line-height:1.75">${aHtml}</div>
       </details>
