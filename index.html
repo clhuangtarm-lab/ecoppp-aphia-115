@@ -418,11 +418,11 @@
 
     <p style="font-size:14.5px;color:#4a4a34;margin-bottom:12px"><b style="color:#3a4720">附表三「友善環境植物保護資材補助查驗紀錄表」應填欄位：</b></p>
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin-bottom:24px">
-      <div style="background:#fffdf6;border:2px solid #e6dcb2;border-radius:14px;padding:13px 16px;font-size:13.5px;color:#4a4a34">查驗單位、查驗日期、受查驗單位、代表人</div>
+      <div style="background:#fffdf6;border:2px solid #e6dcb2;border-radius:14px;padding:13px 16px;font-size:13.5px;color:#4a4a34">查驗單位（鄉鎮輔導單位名稱）、查驗日期、受查驗單位（申請產銷班或申請農友姓名）、代表人（申請農友姓名）</div>
       <div style="background:#fffdf6;border:2px solid #e6dcb2;border-radius:14px;padding:13px 16px;font-size:13.5px;color:#4a4a34">補助面積（公頃）、購用防治資材數量</div>
       <div style="background:#fffdf6;border:2px solid #e6dcb2;border-radius:14px;padding:13px 16px;font-size:13.5px;color:#4a4a34">購用資材廠牌名稱、農藥登記證字號／產品登錄字號</div>
       <div style="background:#fffdf6;border:2px solid #e6dcb2;border-radius:14px;padding:13px 16px;font-size:13.5px;color:#4a4a34">是否為防檢署公告品牌、購買數量是否符合</div>
-      <div style="background:#fffdf6;border:2px solid #e6dcb2;border-radius:14px;padding:13px 16px;font-size:13.5px;color:#4a4a34">查驗人員簽名</div>
+      <div style="background:#fffdf6;border:2px solid #e6dcb2;border-radius:14px;padding:13px 16px;font-size:13.5px;color:#4a4a34">查驗人員簽名（鄉鎮輔導單位承辦簽名）</div>
       <div style="background:#fffdf6;border:2px solid #e6dcb2;border-radius:14px;padding:13px 16px;font-size:13.5px;color:#4a4a34">查驗相片黏貼處（須清楚拍到購買憑證及防治資材）</div>
     </div>
 
@@ -612,7 +612,13 @@ const FAQ_DATA = [
   { id:28, cat:"聯絡窗口", q:"補助經費或辦法核銷規定有爭議，找誰詢問？",
     a:`<p><b>補助經費／核銷規定爭議：</b>防檢署承辦　鄒小姐　02-2343-1480</p><p><b>分工提醒：</b>系統操作 → 系統廠商（首頁電話）；受理、檢核、送件實務 → 執行單位（運籌學會）；補助辦法與核銷爭議 → 防檢署承辦鄒小姐。</p>` },
   { id:29, cat:"聯絡窗口", q:"送件與洽詢窗口有哪些？",
-    a:`<p><b>送件地址：</b>104 台北市中山北路三段 28 號 3 樓（社團法人台灣農業科技資源運籌管理學會），請註明「植保資材補助」</p><p><b>LINE 帳號：</b>@167rocbe（<a href="https://lin.ee/uRLaUvQ" target="_blank" rel="noopener" style="color:#5f7a2a">點此加入好友</a>）</p><p><b>說明會簡報下載：</b><a href="https://reurl.cc/A9E838" target="_blank" rel="noopener" style="color:#5f7a2a">https://reurl.cc/A9E838</a></p><ul style="margin:8px 0;padding-left:20px;line-height:1.8"><li>資材補助一般洽詢／受理・送件實務：鄧翠怡 助理研究員　02-2585-1775 #32</li><li>資材補助一般洽詢／受理・送件實務：黃靖嵐 研究員　02-2585-1775 #37</li><li>補助辦法／核銷爭議：防檢署 鄒小姐　02-2343-1480</li></ul>` }
+    a:`<p><b>送件地址：</b>104 台北市中山北路三段 28 號 3 樓（社團法人台灣農業科技資源運籌管理學會），請註明「植保資材補助」</p><p><b>LINE 帳號：</b>@167rocbe（<a href="https://lin.ee/uRLaUvQ" target="_blank" rel="noopener" style="color:#5f7a2a">點此加入好友</a>）</p><p><b>說明會簡報下載：</b><a href="https://reurl.cc/A9E838" target="_blank" rel="noopener" style="color:#5f7a2a">https://reurl.cc/A9E838</a></p><ul style="margin:8px 0;padding-left:20px;line-height:1.8"><li>資材補助一般洽詢／受理・送件實務：鄧翠怡 助理研究員　02-2585-1775 #32</li><li>資材補助一般洽詢／受理・送件實務：黃靖嵐 研究員　02-2585-1775 #37</li><li>補助辦法／核銷爭議：防檢署 鄒小姐　02-2343-1480</li></ul>` },
+  { id:30, cat:"系統操作", q:"系統帳號被鎖住了，怎麼辦？",
+    a:`<p>請聯繫防檢署　鄒小姐　02-2343-1480 協助解鎖。</p>` },
+  { id:31, cat:"系統操作", q:"本年度鄉鎮輔導單位需要新增系統帳號，怎麼申請？",
+    a:`<p>請聯繫防檢署　鄒小姐　02-2343-1480 協助新增帳號。</p>` },
+  { id:32, cat:"查驗紀錄", q:"附表三查驗紀錄表的「查驗單位」「受查驗單位」「代表人」要填誰？",
+    a:`<ul style="margin:8px 0;padding-left:20px;line-height:1.8"><li><b>查驗單位</b>：填寫鄉鎮輔導單位名稱</li><li><b>受查驗單位</b>：填寫申請產銷班或申請農友姓名</li><li><b>代表人</b>：填寫申請農友姓名</li></ul>` }
 ];
 
 const state = { activeTab:"intro", activeCat:"全部", searchTerm:"" };
